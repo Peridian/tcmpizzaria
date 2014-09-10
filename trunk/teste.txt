@@ -1,1 +1,4 @@
 Yo, Tuca in da house!
+Yo, vamos fazer o trabalho por esse bloco de notas,bora la !!
+
+create table Produto()
