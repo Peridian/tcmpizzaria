@@ -10,7 +10,7 @@
 
 </head>
 
-<body>
+<body">
 
     <div id="wrapper">
 
@@ -33,7 +33,7 @@
                     <p style =
                         "
                         font-size: 20px; 
-                        margin-top: -4px;
+                        margin-top: 3px;
                         "
                         >jul</p>
 
@@ -45,19 +45,30 @@
                         ">2012</p>
 
                 </div>
+ 
+                <div class="redesSociais" style="margin-top: 16px;">
+                    <img src ="../imgs/btn_like.png">
+                </div>
 
-<!--                <img src ="../imgs/btn_like.png">
-                <img src ="../imgs/btn_tweet.png">
-                -->
+                <div class="redesSociais">
+                    <img src ="../imgs/btn_tweet.png" style="margin: -1px 1px 2px 0">
+                </div>
+
             </div>
 
             <div id="artigo">
-        
                     <h2>Itelios cria novo teste de HTML!</h2>
+            
 
-                    <div id="postadoPor">postado por &nbsp</div> <div id="autor">Itelios Brasil</div>
+                <div id="dados">
 
-                    <div = "texto">
+                    <div id="postadoPor">postado por &nbsp</div> 
+                    <div id="autor">Itelios Brasil</div>
+
+                </div>
+
+
+                    <div id= "texto">
 
                         <p>
                             Cupcake ipsum dolor sit. Amet jelly liquorice lemon drops muffin candy. Macaroon sweet roll lollipop toffee fruitcake cupcake topping powder. Pie jelly sugar plum carrot cake. Jelly-o biscuit powder gummi bears powder candy cake halvah cupcake. Jelly beans bonbon applicake muffin pie. Cookie pie marshmallow chocolate cake cake. Sweet roll unerdwear.com candy canes sweet gummi bears chocolate bar. Muffin halvah cake unerdwear.com.
@@ -77,10 +88,9 @@
 
                     </div>
 
-
-                <input type="submit" value="botão de teste">
+                <input type="submit" value="imprimir" style="margin-right: -4px">
                 <input type="submit" value="enviar a um amigo">
-                <input type="submit" value="imprimir">
+                <input type="submit" value="botão de teste">
 
                 <div id ="sessaoComentarios">
 
@@ -94,12 +104,16 @@
 
                         <div class ="comentarioAutoral">
 
-                            <div class ="display"></div>
+                            <div class ="display">
+
+                                <img src ="../imgs/baseDP.png">
+
+                            </div>
 
                             <div class ="nome">Maria da Silva</div>
 
                             <div class ="conteudoComentario">
-                                Cupcake ipsum dolor sit amet macaroon fruitcake jelly marzipan. Tiramisu lemon drops macaroon candy. Jelly beans applicake halvah marzipan lemon drops bear claw. Donut halvah cake chupa chups candy cheesecake.
+                                Cupcake ipsum dolor sit amet macaroon fruitcake jelly marzipan. Tiramisu lemon drops macaroon candy. Jelly beans applicake halvah marzipan lemon drops bear claw.
                             </div>
 
                         </div>
@@ -108,12 +122,19 @@
 
                         <div class ="comentarioAutoral">
 
-                            <div class ="display"></div>
+                            <div class ="display">                        
 
-                            <div class ="nome">José Carlos Souza</div>
+                                <img src ="../imgs/baseDP.png">
 
-                            <div class ="conteudoComentario">
-                                Cupcake ipsum dolor sit amet macaroon fruitcake jelly marzipan. Tiramisu lemon drops macaroon candy. Jelly beans applicake halvah marzipan lemon drops bear claw. Donut halvah cake chupa chups candy cheesecake.
+                            </div>
+
+                            <div class ="nome">José Carlos Sousa</div>
+
+                            <div class ="conteudoComentario" style="
+                                margin-left:-120px;
+                                margin-bottom: 20px;
+                                ">
+                                Cupcake ipsum dolor sit amet macaroon fruitcake jelly marzipan. Tiramisu lemon drops macaroon candy. Jelly beans applicake halvah marzipan lemon drops bear claw. Donut halvah cake chupa chups candy cheesecake. Cupcake ipsum dolor sit amet macaroon fruitcake jelly marzipan. Tiramisu lemon drops macaroon candy.
                             </div>
 
                         </div>
@@ -122,12 +143,21 @@
 
                         <div class ="comentarioAutoral">
 
-                            <div class ="display"></div>
+                            <div class ="display">                        
+
+                                <img src ="../imgs/baseDP.png">
+
+                            </div>
 
                             <div class ="nome">Maria da Silva</div>
 
-                            <div class ="conteudoComentario">
-                                Cupcake ipsum dolor sit amet macaroon fruitcake jelly marzipan. Tiramisu lemon drops macaroon candy. Jelly beans applicake halvah marzipan lemon drops bear claw. Donut halvah cake chupa chups candy cheesecake.
+                            <br/>
+
+                            <div class ="conteudoComentario" style="
+                                margin-left: 93px;
+                                margin-top: -57px;
+                                ">
+                                Cupcake ipsum dolor sit amet macaroon fruitcake jelly marzipan. Tiramisu lemon drops macaroon candy. Jelly beans applicake halvah marzipan lemon drops bear claw.
                             </div>
 
                         </div>
@@ -142,13 +172,15 @@
 
                 </div>
 
-                <form name ="enviarUmComentario">
+                <form id ="enviarComentario">
 
-                    <div id ="nome">
+                    <div id ="nomeComentario">
 
                         <h4>Nome ou apelido</h4>
 
-                        <input type="text" name="fname"><br>
+                        <input type="text" id ="txtNome" name="fname" style="                            
+                            margin-right: 12px;
+                            "><br>
 
                     </div>
 
@@ -156,15 +188,15 @@
 
                         <h4>E-mail (eu@exemplo.com)</h4>
 
-                        <input type="text" name="fname"><br>
+                        <input type="text" id="txtEmail" name="fname"><br>
 
                     </div>
 
                     <div id ="comentario">
 
-                        <h4>E-mail (eu@exemplo.com)</h4>
+                        <h4>Comentário</h4>
 
-                        <input type="text" name="fname"><br>
+                        <input type="text" id="txtComentario" name="fname"><br>
 
                     </div>
 
@@ -175,15 +207,19 @@
             </div>
     </div>
 
-        <div id="footer">
 
-            <h3 id="footerItelios">Itelios</h3>
 
     </div>
 
+            <div id="footer">
+
+            <h3 id="footerItelios">
+
+                <img src="../imgs/logoFooter.png" >
+
+            </h3>
+
     </div>
-
-
 
 
 </body>
