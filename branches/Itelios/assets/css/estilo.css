@@ -1,0 +1,137 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/* Tags daqui em diante estão em ordem ALFABÉTICA */
+#artigo 
+{
+    background-color: white;
+    width: 860px;
+    margin: auto;
+    margin-left: -4px;
+    border: 1px solid #ed8f00;
+    border-radius: 5px;
+    padding: 36px 21px;
+}
+
+body
+{
+    background-color: #f1eeea;
+}
+
+#barraLateral 
+{
+    background-image: url('../imgs/bgData.png');
+    width: 70px;
+    height: 86px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.container
+{
+}
+
+.container div
+{
+    display: inline-block;
+    vertical-align:top;
+    
+}
+
+#data 
+{
+    height: 70px;
+    text-align: center;
+
+}
+
+#data p 
+{
+    font-family: SansaSoft-SemiBold;
+    color: white;
+}
+
+@font-face {
+    font-family: SansaSoft-SemiBold;
+    src: url('../fonts/SansaSoft-SemiBold.otf');
+}
+
+@font-face {
+    font-family: SansaSoft-Light;
+    src: url('../fonts/SansaSoft-Light.otf');
+}
+
+h2 
+{
+    font-family: SansaSoft-SemiBold;
+    font-size: 26px;
+    color: #e75012;
+}
+
+#headerConteudo
+{
+    margin-top: 74px;
+    margin-bottom: 40px;
+    color: #e75012;
+    font-family: Romana;
+    font-size:60px;
+}
+
+#wrapper 
+{
+width: 1020px;
+margin: auto;
+}
